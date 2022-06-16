@@ -1,0 +1,55 @@
+Homepage
+	-Controller
+	-Model
+	-View
+
+
+AboutUs
+	-Controller
+	-Model
+	-View 
+
+
+Products
+	-Controller
+	-Model
+	-View (View will show either all of the current products or a single product)
+
+Cart
+	-Controller
+	-View (Will show the cart and the ordering form)
+
+Admin
+	-Controller
+	-Model
+	-View (will display the login form)
+
+Dashboard
+	-Controller
+	-Model
+	-View (will show, current orders, previous orders, current inventory)
+
+
+
+
+
+
+Database:
+
+User:
+	username, password, firstname, lastname
+
+
+Products:
+	prod_name, prod_description, inventory, bottle_size, prod_img
+
+
+Cur_Orders:
+	firstname, lastname, email, phone_num, order_description, order_date, collection, payment, completion
+
+
+Prev_Orders:
+	firstname, lastname, email, phone_num, order_description, order_date, collection, payment
+
+
+	
