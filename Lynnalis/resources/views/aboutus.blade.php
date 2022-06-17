@@ -1,6 +1,7 @@
 @extends('layout.master')
 @section('content')
 
+<!-- Introduction --> 
 <div class="container-fluid padding">
     <div class="row text-center">
         <div class="col-12">
@@ -26,11 +27,11 @@
 
 </br>
 </br>
-
-<!-- Operating Hours -->
 <hr class="my-3">
 </br>
 </br>
+
+<!-- Operating Hours -->
 <div class="container-fluid padding">
     <div class="row text-center">
         <div class ="col-12">

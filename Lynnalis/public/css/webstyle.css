@@ -38,8 +38,49 @@ nav{
     font-size: 1.1em !important;
 }
 
+#navbarResponsive a:hover{
+    background: #2FB8E8;
+}
 
 
+/*Home Page*/
+#heading{
+    font-family: "Brush Script MT", cursive;
+}
+
+.bi-stars{
+    color:#E6DA07;
+}
+
+.carousel-indicators{
+    display: none;
+  }
+
+.card-group{
+    background: #068EE8 !important;
+}
+  
+.card{
+    border-radius: 10%;
+    width: 18rem;
+}
+  
+.actreview{
+    font-style: italic;
+}
+
+.form-group{
+    width: 40%;
+    margin: 0 auto;
+}
+
+.form-control{
+    border:1px solid black;
+}
+
+.btn{
+    background-color: #007AF3;
+}
 
 
 
@@ -68,6 +109,28 @@ footer{
 
 footer a{
     color: #d5d5d5;
+}
+
+.socials{
+    font-size: 3em;
+}
+  
+.bi-instagram{
+    color:#E1306C;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+  
+.bi-facebook{
+    color:#0165E1;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+  
+.bi-whatsapp{
+    color:#25d366;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
 }
 
 #footerLocation{

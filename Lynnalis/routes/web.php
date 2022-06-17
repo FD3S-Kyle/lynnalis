@@ -17,4 +17,7 @@ use Illuminate\Support\Facades\Route;
 //     return view('welcome');
 // });
 
+Route::get('/', [App\Http\Controllers\HomepageController::class, 'execute'])->name('home');
+Route::post('/', 'App\Http\Controllers\HomepageController@submitInquiry');
+
 Route::get('/aboutus', [App\Http\Controllers\AboutUsController::class, 'execute'])->name('aboutus');

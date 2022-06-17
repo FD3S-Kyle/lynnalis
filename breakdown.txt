@@ -1,12 +1,12 @@
-Homepage
+Homepage (Done)
 	-Controller
-	-Model
+	-Model (Just have to set up the database itself)
 	-View
 
 
-AboutUs
+AboutUs  (DONE for now)
 	-Controller
-	-Model
+	-Model (pending)
 	-View 
 
 
