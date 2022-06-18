@@ -34,7 +34,7 @@
                     <div class="carousel-item active" data-bs-interval="10000">
                         <div class="row row-cols-2 row-cols-md-4 g-4">
                             <div class="col">
-                                <div class="card">
+                                <div class="card" id="card_review">
                                     <div class="card-body text-center">
                                         <p class="card-text actreview">"The pre-shampoo really takes away all of the grim that was in my hair. Will be buying again for sure."</p>
                                         <p class="card-text">- Gabriella Johnson</p>
@@ -42,7 +42,7 @@
                                 </div>
                             </div>
                             <div class="col">
-                                <div class="card">
+                                <div class="card" id="card_review">
                                     <div class="card-body text-center">
                                         <p class="card-text actreview">"After using the moisturizing oil my hair has a shine I did not know was there. I highly recommend it to anyone."</p>
                                         <p class="card-text">- John Barker</p>
@@ -50,7 +50,7 @@
                                 </div>
                             </div>
                             <div class="col">
-                                <div class="card">
+                                <div class="card" id="card_review">
                                     <div class="card-body text-center">
                                         <p class="card-text actreview">"My hair feels so much easier to comb through since using the pre-shampoo."</p>
                                         <p class="card-text">- Baily Huya</p>
@@ -58,7 +58,7 @@
                                 </div>
                             </div>
                             <div class="col">
-                                <div class="card">
+                                <div class="card" id="card_review">
                                     <div class="card-body text-center">
                                         <p class="card-text actreview">"My hair is waaayyyy softer than before and it feels like it kept its bounce."</p>
                                         <p class="card-text">- Laylee Bishop</p>
@@ -70,7 +70,7 @@
                     <div class="carousel-item" data-bs-interval="10000">
                         <div class="row row-cols-2 row-cols-md-4 g-4">
                         <div class="col">
-                                <div class="card">
+                                <div class="card" id="card_review">
                                     <div class="card-body text-center">
                                         <p class="card-text actreview">"Tried using the pre-shampoo and leave-in condition into my normal routine and I must say the quality of my hair has greatly improved."</p>
 									    <p class="card-text">- Sky Alan</p>
@@ -78,7 +78,7 @@
                                 </div>
                             </div>
                             <div class="col">
-                                <div class="card">
+                                <div class="card" id="card_review">
                                     <div class="card-body text-center">
                                         <p class="card-text actreview">"For anyone wanting a good shine in their hair the moisturizing oil is it."</p>
                                         <p class="card-text">- Shawn Bourne</p>
@@ -86,7 +86,7 @@
                                 </div>
                             </div>
                             <div class="col">
-                                <div class="card">
+                                <div class="card" id="card_review">
                                     <div class="card-body text-center">
                                         <p class="card-text actreview">"The pre-shampoo works wonders on my natural hair. It feels soo soft and its easy to detangle now."</p>
                                         <p class="card-text">- Jamie Layne</p>
@@ -94,7 +94,7 @@
                                 </div>
                             </div>
                             <div class="col">
-                                <div class="card">
+                                <div class="card" id="card_review">
                                     <div class="card-body text-center">
                                         <p class="card-text actreview">"My hair feels and looks healthier after using the pre-shampoo and leave-in conditioner."</p>
                                         <p class="card-text">- Dean Graham</p>

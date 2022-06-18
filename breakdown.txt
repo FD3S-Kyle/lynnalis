@@ -10,9 +10,9 @@ AboutUs  (DONE for now)
 	-View 
 
 
-Products
+Products (Done)
 	-Controller
-	-Model
+	-Model (database needs to be setup)
 	-View (View will show either all of the current products or a single product)
 
 Cart

@@ -20,4 +20,21 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', [App\Http\Controllers\HomepageController::class, 'execute'])->name('home');
 Route::post('/', 'App\Http\Controllers\HomepageController@submitInquiry');
 
+Route::get('/products', [App\Http\Controllers\ProductsController::class, 'execute'])->name('products');
+
+Route::get('/products/shampoo', function(){
+    $prodName = "shampoo";
+    return App::call('App\Http\Controllers\ProductsController@productView', ['prodName' => $prodName]);
+})->name("shampoo");
+
+Route::get('/products/oil', function(){
+    $prodName = "oil";
+    return App::call('App\Http\Controllers\ProductsController@productView', ['prodName' => $prodName]);
+})->name("oil");
+
+Route::get('/products/conditioner', function(){
+    $prodName = "conditioner";
+    return App::call('App\Http\Controllers\ProductsController@productView', ['prodName' => $prodName]);
+})->name("conditioner");
+
 Route::get('/aboutus', [App\Http\Controllers\AboutUsController::class, 'execute'])->name('aboutus');
