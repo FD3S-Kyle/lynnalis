@@ -35,13 +35,17 @@ Dashboard
 
 
 Database:
+CREATE DATABSE lynnalis_db
 
 User:
 	username, password, firstname, lastname
+CREATE TABLE user(username VARCHAR(20), password VARCHAR(20), fname VARCHAR(15), lname VARCHAR(30));
+
 
 
 Products:
 	prod_name, prod_description, inventory, bottle_size, prod_img
+CREATE TABLE products(prod_name VARCHAR(60), prod_description VARCHAR(500), inventory INT(length), bottle_size VARCHAR(20), prod_img VARCHAR(50));
 
 
 Cur_Orders:
@@ -52,4 +56,5 @@ Prev_Orders:
 	firstname, lastname, email, phone_num, order_description, order_date, collection, payment
 
 
+CREATE TABLE orders(fname VARCHAR(20), lname VARCHAR(20), email VARCHAR(60), phone_num VARCHAR(12), order_description VARCHAR(500), order_date DATE, collection VARCHAR(15), cost DECIMAL(length,2), payment VARCHAR(15), completion CHAR(1));
 	

@@ -1,37 +1,49 @@
-html, body{
+html{
     height: 100%;
     width: 100%;
     font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
-    background-color: #D6F4FD;
     color: #068EE8;
+    scroll-behavior: smooth;
+}
+
+body{
+    height: 100%;
+    background: linear-gradient(0deg, #6190E8 0%, #b0c8f4 55%,#A7BFE8 85%) fixed no-repeat;
 }
 
 #logoHeadliner{
     font-family: "Brush Script MT", cursive;
-    font-size: 80px;
-    padding-top: -40px;
-    padding-bottom: 20px;
-}
-
-nav{
-    background-color: #068EE8;
-    color: #FFFFFF;
-    padding-top: 10px;
-    justify-content: center;
-    margin-bottom: 30px;
-}
-
-.navbar{
-    padding:0.8rem;
-}
-
-.navbar-nav li{
-    padding-left: 60px;
     font-size: 30px;
 }
 
+nav{
+    color: #FFFFFF;
+    padding-top: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+
+    border-radius: 2px;
+    border-bottom: 1px solid #fff;
+    backdrop-filter: blur(3px);
+    box-shadow: 0 0 6px 0 rgba(29, 29, 29, 0.203);
+}
+
+#navbar-brand{
+    height: 50px;
+}
+
+.navbar{
+    padding: 0.8rem;
+}
+
+.navbar-nav li{
+    padding-left: 40px;
+    font-size: 20px;
+}
+
 .navbar-nav li a{
-    color: #FFFFFF !important;
+    color: #222;
+    font-size: 1.1em !important;
 }
 
 .nav-link{
@@ -39,7 +51,11 @@ nav{
 }
 
 #navbarResponsive a:hover{
-    background: #2FB8E8;
+    background: #90b1ef;
+
+    border-radius: 10px;
+    border: 1px solid #fff;
+    box-shadow: 0 0 6px 0 rgba(29, 29, 29, 0.203);
 }
 
 
@@ -121,9 +137,12 @@ hr{
 
 
 footer{
-    background-color: #068EE8;
     color:#FFFFFF;
     padding-top: 1.5rem;
+    background: rgba(255, 255, 255, 0.174);
+
+    border-radius: 2px;
+    border-top: 1px solid #fff;
 }
 
 footer a{
@@ -152,12 +171,12 @@ footer a{
     margin-right: 1.5rem;
 }
 
-#footerLocation{
+/* #footerLocation{
     width: 50%;
     position: relative;
     margin: 0 auto;
-    padding-top: 56.25%; /* 16:9 Aspect Ratio */
-}
+    padding-top: 56.25%;  // 16:9 Aspect Ratio // 
+} */
 
 .responsive-iframe {
     position: absolute;
@@ -168,5 +187,25 @@ footer a{
     width: 100%;
     height: 50%;
     border: none;
-  }
+}
+
+
+
+/*Admin Login Page*/
+#bg-img{
+    background-image: url("/img/login/login_bg_1.svg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#bg-img::after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.174);
+}
 
