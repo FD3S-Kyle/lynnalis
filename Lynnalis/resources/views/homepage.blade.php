@@ -112,12 +112,10 @@
 
 </br>
 </br>
-<hr class="my-3">
-</br>
-</br>
+<hr class="my-0">
 
 <!-- Contact Us Section -->
-<div class="container-fluid padding">
+<div class="container-fluid shadow-lg p-3 mb-5 bg-body rounded" id="contact-us">
     <div class="row ">
         <div class="col-12 text-center">
             <h3 class="display-4">Contact Us</h3>

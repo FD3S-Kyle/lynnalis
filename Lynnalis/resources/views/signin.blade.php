@@ -10,20 +10,17 @@
         <link rel="stylesheet" href="{{URL::asset('/css/webstyle.css')}}">
     </head>
     <body>
-        <div class="container" id="bg-img">
+        <div class="container-fluid" id="bg-img">
             <div class="content">
                 <header> Login Ms.Boss Lady </header>
                 <form action="#">
                     <div class="field">
-                        <span class="bi bi-user"></span>
-                        <div class="form-floating">
-                            <input type="text" class="form-control" id="username" name="username" placeholder="Enter Username">
-                            <label for="quantity">Username</label>
-                        </div>
+                        <span><i class="bi bi-person-bounding-box"></i></span>              
+                        <input type="text" class="form-control" id="username" name="username" required placeholder="Enter Username">
                     </div>
-                    <div class="password">
-                        <span class="bi bi-shield-lock-fill"></span>
-                        <input type="password" class="form-control" id="pass-key" name="pwd" placeholder="Enter Password">
+                    <div class="field password">
+                        <span><i class="bi bi-shield-lock-fill"></i></span>
+                        <input type="password" class="form-control" id="pass-key" name="pwd" required placeholder="Enter Password">
                         <span class="show">SHOW</span>
                     </div>
                     <div class="forget-password">
