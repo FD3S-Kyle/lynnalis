@@ -18,10 +18,10 @@
     <div class="row row-cols-1 row-cols-md-3 g-4">
         @foreach ($products as $product)
             <div class="col">
-                <div class="card" id="product_card">
+                <div class="card shadow p-3 mb-5 bg-body rounded"" id="product_card">
                     <img src="{{ URL('/img/products/' .$product['prod_img']) }}" class="card-img-top rounded" id="product_image">
                     <div class="card-body text-center">
-                        <h5 class="card-title"> {{ $product['prod_name'] }} </h5>
+                        <h5 class="card-title">  {{ $product['prod_name'] }} </h5>
                         <a href="/products/{{ $product['short_name'] }}" class="btn btn-primary">See More</a>
                     </div>
                 </div>
@@ -32,7 +32,7 @@
 
 @else
 
-<!-- Introduction --> 
+<!-- Individual Products --> 
 <div class="container-fluid padding">
     <div class="row text-center">
         <div class="col-12">

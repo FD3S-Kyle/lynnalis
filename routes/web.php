@@ -38,3 +38,5 @@ Route::get('/products/conditioner', function(){
 })->name("conditioner");
 
 Route::get('/aboutus', [App\Http\Controllers\AboutUsController::class, 'execute'])->name('aboutus');
+
+Route::get('/admin', [App\Http\Controllers\AdminController::class, 'execute'])->name('admin');
